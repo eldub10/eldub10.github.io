@@ -1,0 +1,151 @@
+// fonts
+$header-font-family: Raleway, Helvetica, Arial, sans-serif;
+$body-font-family: Roboto, Helvetica, Arial, sans-serif;
+
+// colors
+$myred: #a63f40;
+$myblue: #396aac;
+$mygold: #cec79b;
+$myblack: #343f41;
+$mygray: #9a9fa0;
+$mywhite: #fff;
+$myoffwhite: #eee;
+
+$primary-color: $myblue;
+
+$topbar-bg: $primary-color;
+$topbar-dropdown-bg: $topbar-bg;
+$topbar-link-bg-hover: darken($topbar-bg, 10%);
+$topbar-dropdown-link-bg: $topbar-bg;
+$topbar-dropdown-link-bg-hover: darken($topbar-bg, 10%);
+
+$clearing-bg: $mywhite;
+$clearing-close-color: $mygray;
+$clearing-carousel-bg: $clearing-bg;
+$clearing-caption-font-color: $myblack;
+
+@import 'foundation';
+
+body {
+	background: $mywhite;
+	color: $myblack; 
+}
+h1 {
+	color: $myblue;
+	margin-left: .5rem;
+}
+.nav {
+	box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+}
+.top-bar-section {
+	ul li > a {
+		font-family: $header-font-family;
+		font-size: 1rem;
+	}
+}
+.logo a {
+	font-size: 1.7rem;
+	margin-left: .5rem;
+}
+section {
+	padding: 2.5rem 0 1rem;	
+	.row {
+		margin-bottom: 2rem;
+	}
+}
+#hero {
+	background: $myblack url('../img/larry_large.jpg') no-repeat center;
+	background-size: cover;
+	height: 70%;
+	@media #{$medium-only} { 
+		height: 60%
+	}
+	@media #{$small-only} { 
+		height: 40%
+	}
+}
+#about,
+#experience {
+	background: $myoffwhite; 
+	p {
+		margin-bottom: 0;
+		padding-top: .75rem;
+		line-height: 1.4;
+	}
+	ul {
+		margin-bottom: 0;
+	}
+	h2, h3, h4, h5 {
+		margin-bottom: 0;
+		@media #{$medium-up} { 
+			text-align: right;
+		}
+	}
+	h2 {
+		font-size: 1.5rem;
+	}
+	h3 {
+		font-size: 1.2rem;
+	}
+	h4 {
+		font-size: 1rem;
+	}
+	h5 {
+		font-size: 1rem;
+	}
+}
+#portfolio {
+	img {
+		padding: .3rem;
+	}
+	h4 {
+		font-size: .9rem;
+		margin: .4rem .4rem 0;
+	}
+	h5 {
+		font-size: .8rem;
+		color: $mygray;
+		margin: 0 .4rem;
+	}
+}
+.visible-img img {
+	position: static;
+	display: block;
+	margin: 2rem auto;
+	@media #{$small-only} { 
+		margin: 0 auto;
+	}
+	-webkit-transform: none;
+	-moz-transform: none;
+	-ms-transform: none;
+	-o-transform: none;
+	transform: none;	
+}
+.clearing-caption {
+	bottom: inherit;
+	p {
+		max-width: 40rem;
+		margin: 0 auto;
+		text-align: left;
+		line-height: 1.3;
+	}
+
+}
+#links {
+	background: $mywhite; 
+}
+#contact {
+	background: $myoffwhite; 
+	p {
+		margin: .5rem 0 0;
+	}
+}
+#footer {
+	background: $myblue;
+	// box-shadow: 0 -5px 5px rgba(0,0,0,0.3);
+	padding-top: 1rem;
+	p {
+		color: darken($myoffwhite, 20%);
+		font-size: .8rem;
+	}
+}
