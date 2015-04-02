@@ -17,7 +17,7 @@
       <nav class="top-bar" role="navigation" data-topbar data-options="mobile_show_parent_link:false">
         <ul class="title-area">
           <li class="name">
-            <h1 class="logo"><a href="#">Larry Wright</a></h1>
+            <h1 class="logo"><a data-scroll href="#">Larry Wright</a></h1>
           </li>
           <li class="toggle-topbar menu-icon">
             <a href="#"><span>Menu</span></a>
@@ -25,10 +25,10 @@
         </ul>
         <div class="top-bar-section">
           <ul class="right">
-            <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#links">Links</a></li>
+            <li><a data-scroll href="#about">About</a></li>
+            <li><a data-scroll href="#portfolio">Portfolio</a></li>
+            <li><a data-scroll href="#experience">Experience</a></li>
+            <li><a data-scroll href="#links">Links</a></li>
             <!--
             <li class="has-dropdown"><a href="#">Interests</a>
               <ul class="dropdown" dropdown-wrapper>
@@ -38,7 +38,7 @@
               </ul>
             </li>
             -->
-            <li><a href="#contact">Contact</a></li>
+            <li><a data-scroll href="#contact">Contact</a></li>
         </div>
       </nav>
     </header>
@@ -304,6 +304,7 @@
     </footer>
     
     <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/smooth-scroll.min.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>
       $(document).foundation();
@@ -314,7 +315,8 @@
       });
       $(document.body).on("open.fndtn.clearing", function(event) {
         console.info("About to open thumbnail with src ", $('img', event.target).attr('src'));
-      });      
+      });
+      smoothScroll.init();    
     </script>
   </body>
 </html>
