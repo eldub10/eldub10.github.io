@@ -3352,20 +3352,12 @@ section {
     margin-bottom: 2rem; }
 
 #hero {
-  background: #343f41 url("../img/larry_large.jpg") no-repeat center;
-  background-size: cover; }
-  @media only screen and (min-width: 90.0625em) {
-    #hero {
-      height: 90%; } }
-  @media only screen and (min-width: 64.0625em) and (max-width: 90em) {
-    #hero {
-      height: 70%; } }
-  @media only screen and (min-width: 40.0625em) and (max-width: 64em) {
-    #hero {
-      height: 60%; } }
+  background: #343f41 url("../img/larry_large.jpg") no-repeat center bottom;
+  background-size: cover;
+  height: 60%; }
   @media only screen and (max-width: 40em) {
     #hero {
-      height: 40%; } }
+      height: 30%; } }
 
 #about,
 #experience {
