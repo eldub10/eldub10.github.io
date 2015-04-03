@@ -48,30 +48,22 @@ h1 {
 	margin-left: .5rem;
 }
 section {
-	padding: 2.5rem 0 1rem;	
+	padding: 2.5rem 0 1rem;
 	.row {
 		margin-bottom: 2rem;
 	}
 }
 #hero {
-	background: $myblack url('../img/larry_large.jpg') no-repeat center;
+	background: $myblack url('../img/larry_large.jpg') no-repeat center bottom;
 	background-size: cover;
-	@media #{$xlarge-up} { 
-		height: 90%
-	}	
-	@media #{$large-only} { 
-		height: 70%
-	}	
-	@media #{$medium-only} { 
-		height: 60%
-	}
+	height: 60%;
 	@media #{$small-only} { 
-		height: 40%
+		height: 30%
 	}
 }
 #about,
 #experience {
-	background: $myoffwhite; 
+	background: $myoffwhite;
 	p {
 		margin-bottom: 0;
 		padding-top: .75rem;
