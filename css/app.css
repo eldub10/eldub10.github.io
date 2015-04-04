@@ -3335,24 +3335,25 @@ h1 {
   color: #396aac;
   margin-left: .5rem; }
 
-.nav {
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3); }
-
-.top-bar-section ul li > a {
-  font-family: Raleway, Helvetica, Arial, sans-serif;
-  font-size: 1rem; }
-
-.logo a {
-  font-size: 1.7rem;
-  margin-left: .5rem; }
-
 section {
   padding: 2.5rem 0 1rem; }
   section .row {
     margin-bottom: 2rem; }
 
+.nav {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3); }
+
+.top-bar .name h1 a {
+  font-size: 1.7rem;
+  margin-left: .5rem; }
+
+.top-bar-section ul li > a {
+  font-family: Raleway, Helvetica, Arial, sans-serif;
+  font-size: 1rem; }
+
 #hero {
-  background: #343f41 url("../img/larry_large.jpg") no-repeat center bottom;
+  background: #343f41 url("../img/larry_large.jpg") no-repeat;
+  background-position: center 60%;
   background-size: cover;
   height: 60%; }
   @media only screen and (max-width: 40em) {
