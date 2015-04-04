@@ -3416,9 +3416,11 @@ section {
   -ms-transform: none;
   -o-transform: none;
   transform: none; }
-  @media only screen and (max-width: 40em) {
-    .visible-img img {
-      margin: 0 auto; } }
+@media only screen and (max-width: 40em) and (orientation: landscape) {
+  .visible-img img {
+    margin: 0 auto;
+    max-height: 40%;
+    max-width: 40%; } }
 
 .clearing-caption {
   position: static; }
