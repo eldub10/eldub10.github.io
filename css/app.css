@@ -3365,12 +3365,13 @@ section {
   background: #eee; }
   #about p,
   #experience p {
-    margin-bottom: 0;
+    margin-bottom: .5rem;
     padding-top: .75rem;
-    line-height: 1.4; }
+    line-height: 1.5; }
   #about ul,
   #experience ul {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    line-height: 1.5; }
   #about h2, #about h3, #about h4, #about h5,
   #experience h2,
   #experience h3,
@@ -3435,6 +3436,8 @@ section {
 
 #links {
   background: #fff; }
+  #links p {
+    margin: .5rem 0 0; }
 
 #contact {
   background: #eee; }

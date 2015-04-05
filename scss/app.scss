@@ -28,7 +28,7 @@ $clearing-caption-font-color: $myblack;
 
 body {
 	background: $mywhite;
-	color: $myblack; 
+	color: $myblack;
 }
 h1 {
 	color: $myblue;
@@ -56,7 +56,7 @@ section {
 	background-position: center 60%;
 	background-size: cover;
 	height: 60%;
-	@media #{$small-only} { 
+	@media #{$small-only} {
 		height: 30%
 	}
 }
@@ -64,16 +64,17 @@ section {
 #experience {
 	background: $myoffwhite;
 	p {
-		margin-bottom: 0;
+		margin-bottom: .5rem;
 		padding-top: .75rem;
-		line-height: 1.4;
+		line-height: 1.5;
 	}
 	ul {
 		margin-bottom: 0;
+		line-height: 1.5;
 	}
 	h2, h3, h4, h5 {
 		margin-bottom: 0;
-		@media #{$medium-up} { 
+		@media #{$medium-up} {
 			text-align: right;
 		}
 	}
@@ -108,8 +109,8 @@ section {
 		margin: 1rem auto;
 		max-height: 60%;
 		max-width: 60%;
-		@media #{$small-only} { 
-			@media #{$landscape} { 
+		@media #{$small-only} {
+			@media #{$landscape} {
 				margin: 0 auto;
 				max-height: 40%;
 				max-width: 40%;
@@ -138,10 +139,13 @@ section {
 	}
 }
 #links {
-	background: $mywhite; 
+	background: $mywhite;
+	p {
+		margin: .5rem 0 0;
+	}
 }
 #contact {
-	background: $myoffwhite; 
+	background: $myoffwhite;
 	p {
 		margin: .5rem 0 0;
 	}
