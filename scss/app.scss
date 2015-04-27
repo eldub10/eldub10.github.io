@@ -32,7 +32,6 @@ body {
 }
 h1 {
 	color: $myblue;
-	margin-left: .5rem;
 }
 section {
 	padding: 2.5rem 0 1rem;
@@ -51,6 +50,9 @@ section {
 	font-family: $header-font-family;
 	font-size: 1rem;
 }
+.hero-text {
+	display: none;
+}
 #hero {
 	background: $myblack url('../img/larry_large.jpg') no-repeat;
 	background-position: center 60%;
@@ -58,6 +60,12 @@ section {
 	height: 60%;
 	@media #{$small-only} {
 		height: 30%
+	}
+	h1 {
+		color: $mywhite;
+	}
+	h2 {
+		color: $mygray;
 	}
 }
 #about,
