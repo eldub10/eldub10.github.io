@@ -1,316 +1,471 @@
-<!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Larry Wright</title>
-    <meta name="description" content="Larry Wright: software developer, project manager and technology leader in Portland, OR" />
-    <link rel="icon" href="favicon.png">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:400,700|Roboto:400,400italic,700" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/app.css" />
-  </head>
-  <body>
 
-<!-- Nav Bar -->
-    <header class="nav contain-to-grid fixed">
-      <nav class="top-bar" role="navigation" data-topbar data-options="mobile_show_parent_link:false">
-        <ul class="title-area">
-          <li class="name">
-            <h1 class="logo"><a data-scroll href="#">Larry Wright</a></h1>
-          </li>
-          <li class="toggle-topbar menu-icon">
-            <a href="#"><span>Menu</span></a>
-          </li>
-        </ul>
-        <div class="top-bar-section">
-          <ul class="right">
-            <li><a data-scroll href="#about">About</a></li>
-            <li><a data-scroll href="#portfolio">Portfolio</a></li>
-            <li><a data-scroll href="#experience">Experience</a></li>
-            <li><a data-scroll href="#links">Links</a></li>
-            <li><a data-scroll href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Larry Wright: software developer, project manager and technology leader in Portland, OR">
+  <meta name="author" content="Larry Wright">
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:400,700|Roboto:400,400italic,700">
+  <title>Larry Wright</title>
 
-<!-- Hero -->
-    <section id="hero">
-    	<div class="row">
-    		<div class="medium-4 columns">
-        		<h1 class="hero-text">Larry Wright</h1>
-        		<h2 class="hero-text">Portland, OR</h2>
-    		</div>
-    	</div>
-    </section>
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/app.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" data-scroll href="#">Larry Wright</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a data-scroll href="#about">About</a></li>
+        <li><a data-scroll href="#portfolio">Portfolio</a></li>
+        <li><a data-scroll href="#experience">Experience</a></li>
+        <li><a data-scroll href="#links">Links</a></li>
+        <li><a data-scroll href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section id="hero"></section>
+
+<!-- Main Content -->
+<div class="container">
 
 <!-- About -->
-    <section id="about">
-      <div class="row">
-        <div class="medium-4 columns">
-          <h1>About</h1>
-        </div>
-        <div class="medium-8 columns left">
-          <p>I'm a versatile technology leader with development, design and management experience. Some of my career achievements include:</p>
-          <ul>
-              <li>Growing an engineering startup to 50 people developing enhanced television software, including hiring and training managers, software engineers and QA.</li>
-              <li>Managing several large-scale software and services projects for major cable companies with internationally distributed development teams and vendors.</li>
-              <li>Developing a cable TV set-top box simulator and toolkit integrated with Eclipse for Java developers.</li>
-              <li>Developing a digital content delivery system for downloadable music in 1999 (before iTunes).</li>
-              <li>Architecting a computer-based training platform built on HTML and JavaScript (in 1997). I managed a team that delivered over 300 CD-ROM and Internet CBT courses.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+<section id="about">
+  <div class="row">
+    <div class="col-md-4">
+      <h1>About</h1>
+    </div>
+    <div class="col-md-8">
+      <p>I'm a versatile technology leader with development, design and management experience. Some of my career achievements include:</p>
+      <ul>
+          <li>Growing an engineering startup to 50 people developing enhanced television software, including hiring and training managers, software engineers and QA.</li>
+          <li>Managing several large-scale software and services projects for major cable companies with internationally distributed development teams and vendors.</li>
+          <li>Developing a cable TV set-top box simulator and toolkit integrated with Eclipse for Java developers.</li>
+          <li>Developing a digital content delivery system for downloadable music in 1999 (before iTunes).</li>
+          <li>Architecting a computer-based training platform built on HTML and JavaScript (in 1997). I managed a team that delivered over 300 CD-ROM and Internet CBT courses.</li>
+      </ul>
+    </div><!-- col -->
+  </div><!-- row -->
+</section>
+
+<hr>
 
 <!-- Portfolio -->
-    <section id="portfolio">
-      <div class="row">
-        <div class="column">
-          <h1>Portfolio</h1>
+<section id="portfolio">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Portfolio</h1>
+    </div>
+  </div>
+  <div class="row">
+
+    <div class=" col-sm-4 col-md-3">
+      <a class="thumbnail" href="img/jewel_large.jpg">
+        <img src="img/jewel_small.jpg" alt="benneubauer.com">
+        <div class="caption">
+          <h4 >Ben Neubauer</h4>
+          <h5>2015</h5>
         </div>
-      </div>
-      <div class="row">
-        <div class="large-12 columns">
-          <ul class="large-block-grid-4 medium-block-grid-3 clearing-thumbs" data-clearing>
-            <li>
-              <a class="th radius" href="img/jewel_large.jpg">
-                <img src="img/jewel_small.jpg" alt="benneubauer.com" data-caption="<p>In this freelance project, I developed a custom WordPress theme for <b>Ben Neubauer</b> (jewelry artist). One of his main goals was to have a website with a highly customized look but retain the ability to easily add new products to the site. I accomplished this by creating a customized admin interface in WordPress with extra image resizing tools and a guided workflow. See the live site here:
-                <a href='http://benneubauer.com/' target='_blank'>http://benneubauer.com</a></p>">
-                <h4>benneubauer.com</h4>
-                <h5>2015</h5>
-              </a>
-            </li>
-            <li>
-              <a class="th radius" href="img/nucleus_large.jpg">
-                <img src="img/nucleus_small.jpg" alt="Nucleus" data-caption="<p><b>SeaChange Nucleus</b> video gateway software is an implementation of the Open Cable RDK (Reference Design Kit) standard for advanced set-top boxes. Nucleus provides a TV-centric framework for HTML5 applications running on advanced set-top boxes.</p><br/>
-                <p>My team ported the Nucleus stack to an Arris gateway and IP client for VTR Chile. I also managed a team developing an enhanced program guide using HTML5 and Javacript.</p>">
-                <h4>Nucleus</h4>
-                <h5>2012</h5>
-              </a>
-            </li>
-            <li>
-              <a class="th radius" href="img/camelot_large.jpg">
-                <img src="img/camelot_small.jpg" alt="Canoe (Camelot)" data-caption="<p><b>Camelot</b> was a project for Canoe Ventures that combined EBIF applications on cable TV set-top boxes with HTML applications on mobile devices to provide interactive e-commerce solutions to TV viewers.</p>">
-                <h4>Canoe (Camelot)</h4>
-                <h5>2011</h5>
-              </a>
-            </li>
-            <li>
-              <a class="th radius" href="img/dice_large.jpg">
-                <img src="img/dice_small.jpg" alt="Scour (CStar)" data-caption="<p>The Flashlight Digital Cable Emulator (<b>DiCE</b>) is a Linux-based video streamer that enables software developers to build and test interactive TV applications. DiCE delivers MPEG-2 transport streams (both broadcast and on-demand formats) as well as interactive applications and program specific information (PSI) to cable devices via QAM. DiCE provides a web interface to configure streams and applications.</p>">
-                <h4>DiCE</h4>
-                <h5>2010</h5>
-              </a>
-            </li>
-            <li>
-              <a class="th radius" href="img/ebif_large.jpg">
-                <img src="img/ebif_small.jpg" alt="EBIF User Agent" data-caption="<p>Enhanced Binary Interchange Format (<b>EBIF</b>) is a specification for software applications that provide interactivity on most legacy set-top boxes. EBIF applications can be delivered over an RF stream to any set-top box with an EBIF user agent (similar to a web browser). The user agent renders the EBIF markup into graphics on the end user&rsquo;s television. The EBIF standard also enables two-way communication between the set-top box and backoffice servers. Flashlight Engineering developed and deployed an EBIF user agent on Motorola set-top boxes for Cox Communications.</p>">
-                <h4>EBIF User Agent</h4>
-                <h5>2008</h5>
-              </a>
-            </li>
-            <li>
-              <a class="th radius" href="img/vwb_large.jpg">
-                <img src="img/vwb_small.jpg" alt="Vision Workbench" data-caption="<p>Vidiom Systems <b>VISION Workbench</b> was an Open Cable Application Platform (OCAP) Java development environment based in Eclipse. It allowed application, operating system, and middleware developers to more efficiently write and debug software for OCAP set-top boxes. It included a set-top box emulator and Eclipse plugins to develop and debug OCAP Java applications in real time. This product was later released as an open source project called tru2way Workbench by CableLabs.</p>">
-                <h4>Vision Workbench</h4>
-                <h5>2005</h5>
-              </a>
-            </li>
-            <li>
-              <a class="th radius" href="img/jamplayer_large.jpg">
-                <img src="img/jamplayer_small.jpg" alt="Jam Player (RTrack)" data-caption="<p><b>Jam Player</b> was based on Supertracks&rsquo; audio streaming technology that delivered music in a single stream from cached, secure music files. This method was a cost-effective way to deliver mainstream music over the Internet while providing CD-quality music playback. It also enabled new advertising and promotion models incorporating demographic targeting and detailed tracking. The Supertracks platform was a modular design utilizing a framework architecture based on COM. Component DLLs were created in C++ and user interface components were created in HTML/.HTM.  This was deployed by Microsoft, Virgin and EMI in a public beta with Portland radio station Jammin 95.5, and hip-hop website XTuner.</p>">
-                <h4>Jam Player (RTrack)</h4>
-                <h5>2000</h5>
-              </a>
-            </li>
-            <li>
-              <a class="th radius" href="img/urocket_large.jpg">
-                <img src="img/urocket_small.jpg" alt="urocketmusic.com" data-caption="<p><b>URocket</b> was a partnership between Supertracks, Preview Systems, Intel, NEC/Packard Bell, and EMI Music. Supertracks developed a micro-payment system for music called the Internet Music Card (IMC). These cards were bundled with home music studio PCs by NEC/Packard Bell. Music provided by EMI was sold through the URocket music portal. My team developed the web pages and file delivery software using Microsoft ASP and SQL Server. The music files were encrypted using Intel&rsquo;s Software Integrity System and license management was provided by Preview Systems ZipLock electronic music distribution (EMD) system.</p>">
-                <h4>urocketmusic.com</h4>
-                <h5>1999</h5>
-              </a>
-            </li>
-            <li>
-              <a class="th radius" href="img/knowledgetrack_large.jpg">
-                <img src="img/knowledgetrack_small.jpg" alt="KnowledgeTRACK" data-caption="<p><b>KnowledgeTRACK</b> is a computer based training product designed to run in a web browser or from CD-ROM. Courses were created by Mastering Computers on MCSE Certification topics. Additional courses were created for MacMillan New Riders Publishing and PLATINUM technology. My team developed a cutting-edge training engine in HTML/JavaScript, along with content creation tools in C++ and Visual Basic.</p><br/>
-                <p>I recently refactored this code for modern browsers. See the live site here:<br/>
-                <a href='http://demo.larrypdx.com/knowledgetrack' target='_blank'>http://demo.larrypdx.com/knowledgetrack</a></p>">
-                <h4>KnowledgeTRACK</h4>
-                <h5>1998</h5>
-              </a>
-            </li>
-            <li>
-              <a class="th radius" href="img/skillbuilder_large.jpg">
-                <img src="img/skillbuilder_small.jpg" alt="Mastering Computers CBT" data-caption="<p><b>Mastering Computers</b> worked with NETg to create a library of over 300 CBT products for Information Technology professionals. My team created a CD-ROM based playback engine for these products using C++. In-house development tools were also created to quickly create custom training material including graphics and audio.</p>">
-                <h4>Mastering Computers CBT</h4>
-                <h5>1997</h5>
-              </a>
-            </li>
-            <li>
-              <a class="th radius" href="">
-                <img src="img/ergoknowledge_small.jpg" alt="ErgoKnowledge" data-caption="<p>The <b>ErgoKnowledge</b> CD-ROM training product teaches good ergonomic practices to anyone who sits at a computer all day. It was programmed in Macromedia Authorware and was one of several award-winning training products from Graphic Media. This CBT included video and interactive exercises.</p>">
-                <h4>ErgoKnowledge</h4>
-                <h5>1996</h5>
-              </a>
-            </li>
-            <li>
-              <a class="th radius" href="">
-                <img src="img/kaiser_small.jpg" alt="EpicCare Training" data-caption="<p>In 1995 <b>Kaiser Permanente</b> was automating their entire patient medical record system and Doctor&rsquo;s office processes with a product called EpicCare. Graphic Media was chosen to create a computer based training product to help doctors and nurses learn this electronic system for the first time. The CBT was programmed in Macromedia Authorware and featured video taken at Kaiser offices. The product also used audio to convey all instructional material. In addition to multimedia elements, courses used simulations of the software being taught.</p>">
-                <h4>EpicCare Training</h4>
-                <h5>1995</h5>
-              </a>
-            </li>
-          </ul>
+      </a>
+    </div>
+    <div class=" col-sm-4 col-md-3">
+      <a class="thumbnail" href="img/nucleus_large.jpg">
+        <img src="img/nucleus_small.jpg" alt="Nucleus">
+        <div class="caption">
+          <h4>Nucleus</h4>
+          <h5>2012</h5>
         </div>
+      </a>
+    </div>
+    <div class=" col-sm-4 col-md-3">
+      <a class="thumbnail" href="img/camelot_large.jpg">
+        <img src="img/camelot_small.jpg" alt="Canoe (Camelot)">
+        <div class="caption">
+          <h4>Canoe (Camelot)</h4>
+          <h5>2011</h5>
+        </div>
+      </a>
+    </div>
+    <div class=" col-sm-4 col-md-3">
+      <a class="thumbnail" href="img/dice_large.jpg">
+        <img src="img/dice_small.jpg" alt="DiCE">
+        <div class="caption">
+          <h4>DiCE</h4>
+          <h5>2010</h5>
+        </div>
+      </a>
+    </div>
+    <div class=" col-sm-4 col-md-3">
+      <a class="thumbnail" href="img/ebif_large.jpg">
+        <img src="img/ebif_small.jpg" alt="EBIF User Agent">
+        <div class="caption">
+          <h4>EBIF User Agent</h4>
+          <h5>2008</h5>
+        </div>
+      </a>
+    </div>
+    <div class=" col-sm-4 col-md-3">
+      <a class="thumbnail" href="img/vwb_large.jpg">
+        <img src="img/vwb_small.jpg" alt="Vision Workbench">
+        <div class="caption">
+          <h4>Vision Workbench</h4>
+          <h5>2005</h5>
+        </div>
+      </a>
+    </div>
+    <div class=" col-sm-4 col-md-3">
+      <a class="thumbnail" href="img/jamplayer_large.jpg">
+        <img src="img/jamplayer_small.jpg" alt="Jam Player (RTrack)">
+        <div class="caption">
+          <h4>Jam Player (RTrack)</h4>
+          <h5>2000</h5>
+        </div>
+      </a>
+    </div>
+    <div class=" col-sm-4 col-md-3">
+      <a class="thumbnail" href="img/urocket_large.jpg">
+        <img src="img/urocket_small.jpg" alt="urocketmusic.com">
+        <div class="caption">
+          <h4>urocketmusic.com</h4>
+          <h5>1999</h5>
+        </div>
+      </a>
+    </div>
+    <div class=" col-sm-4 col-md-3">
+      <a class="thumbnail" href="img/knowledgetrack_large.jpg">
+        <img src="img/knowledgetrack_small.jpg" alt="KnowledgeTRACK">
+        <div class="caption">
+          <h4>KnowledgeTRACK</h4>
+          <h5>1998</h5>
+        </div>
+      </a>
+    </div>
+    <div class=" col-sm-4 col-md-3">
+      <a class="thumbnail" href="img/skillbuilder_large.jpg">
+        <img src="img/skillbuilder_small.jpg" alt="Mastering Computers CBT">
+        <div class="caption">
+          <h4>Mastering Computers</h4>
+          <h5>1997</h5>
+        </div>
+      </a>
+    </div>
+    <div class=" col-sm-4 col-md-3">
+      <a class="thumbnail" href="img/ergoknowledge_small.jpg">
+        <img src="img/ergoknowledge_small.jpg" alt="ErgoKnowledge">
+        <div class="caption">
+          <h4>ErgoKnowledge</h4>
+          <h5>1996</h5>
+        </div>
+      </a>
+    </div>
+    <div class=" col-sm-4 col-md-3">
+      <a class="thumbnail" href="img/kaiser_small.jpg">
+        <img src="img/kaiser_small.jpg" alt="EpicCare Training">
+        <div class="caption">
+          <h4>EpicCare Training</h4>
+          <h5>1995</h5>
+        </div>
+      </a>
+    </div>
+
+  </div><!-- row -->
+</section>
+
+<!-- Modal -->
+<div id="lightbox" class="modal fade">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+        <h4 class="modal-title">Portfolio</h4>
       </div>
-    </section>
+
+      <div class="modal-body">
+
+<!-- Carousel -->
+<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/jewel_large.jpg" alt="">
+      <div class="carousel-caption">
+        <h3>Ben Neubauer Jewelry</h3>
+        <h4>2015</h4>
+        <p>In this freelance project, I developed a custom WordPress theme for <b>Ben Neubauer</b> (jewelry artist). One of his main goals was to have a website with a highly customized look but retain the ability to easily add new products to the site. I accomplished this by creating a customized admin interface in WordPress with extra image resizing tools and a guided workflow. See the live site here: <a href='http://benneubauer.com/' target='_blank'>http://benneubauer.com</a></p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/nucleus_large.jpg" alt="">
+      <div class="carousel-caption">
+        <h3>Nucleus</h3>
+        <h4>2012</h4>
+        <p><b>SeaChange Nucleus</b> video gateway software is an implementation of the Open Cable RDK (Reference Design Kit) standard for advanced set-top boxes. Nucleus provides a TV-centric framework for HTML5 applications running on advanced set-top boxes.</p>
+        <p>My team ported the Nucleus stack to an Arris gateway and IP client for VTR Chile. I also managed a team developing an enhanced program guide using HTML5 and Javacript.</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/camelot_large.jpg" alt="">
+      <div class="carousel-caption">
+        <h3>Canoe (Camelot)</h3>
+        <h4>2011</h4>
+        <p><b>Camelot</b> was a project for Canoe Ventures that combined EBIF applications on cable TV set-top boxes with HTML applications on mobile devices to provide interactive e-commerce solutions to TV viewers.</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/dice_large.jpg" alt="">
+      <div class="carousel-caption">
+        <h3>DiCE</h3>
+        <h4>2010</h4>
+        <p>The Flashlight Digital Cable Emulator (<b>DiCE</b>) is a Linux-based video streamer that enables software developers to build and test interactive TV applications. DiCE delivers MPEG-2 transport streams (both broadcast and on-demand formats) as well as interactive applications and program specific information (PSI) to cable devices via QAM. DiCE provides a web interface to configure streams and applications.</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/ebif_large.jpg" alt="">
+      <div class="carousel-caption">
+        <h3>EBIF User Agent</h3>
+        <h4>2008</h4>
+        <p>Enhanced Binary Interchange Format (<b>EBIF</b>) is a specification for software applications that provide interactivity on most legacy set-top boxes. EBIF applications can be delivered over an RF stream to any set-top box with an EBIF user agent (similar to a web browser). The user agent renders the EBIF markup into graphics on the end user&rsquo;s television. The EBIF standard also enables two-way communication between the set-top box and backoffice servers. Flashlight Engineering developed and deployed an EBIF user agent on Motorola set-top boxes for Cox Communications.</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/vwb_large.jpg" alt="">
+      <div class="carousel-caption">
+        <h3>Vision Workbench</h3>
+        <h4>2005</h4>
+        <p>Vidiom Systems <b>VISION Workbench</b> was an Open Cable Application Platform (OCAP) Java development environment based in Eclipse. It allowed application, operating system, and middleware developers to more efficiently write and debug software for OCAP set-top boxes. It included a set-top box emulator and Eclipse plugins to develop and debug OCAP Java applications in real time. This product was later released as an open source project called tru2way Workbench by CableLabs.</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/jamplayer_large.jpg" alt="">
+      <div class="carousel-caption">
+        <h3>Jam Player (RTrack)</h3>
+        <h4>2000</h4>
+        <p><b>Jam Player</b> was based on Supertracks&rsquo; audio streaming technology that delivered music in a single stream from cached, secure music files. This method was a cost-effective way to deliver mainstream music over the Internet while providing CD-quality music playback. It also enabled new advertising and promotion models incorporating demographic targeting and detailed tracking. The Supertracks platform was a modular design utilizing a framework architecture based on COM. Component DLLs were created in C++ and user interface components were created in HTML/.HTM.  This was deployed by Microsoft, Virgin and EMI in a public beta with Portland radio station Jammin 95.5, and hip-hop website XTuner.</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/urocket_large.jpg" alt="">
+      <div class="carousel-caption">
+        <h3>urocketmusic.com</h3>
+        <h4>1999</h4>
+        <p><b>URocket</b> was a partnership between Supertracks, Preview Systems, Intel, NEC/Packard Bell, and EMI Music. Supertracks developed a micro-payment system for music called the Internet Music Card (IMC). These cards were bundled with home music studio PCs by NEC/Packard Bell. Music provided by EMI was sold through the URocket music portal. My team developed the web pages and file delivery software using Microsoft ASP and SQL Server. The music files were encrypted using Intel&rsquo;s Software Integrity System and license management was provided by Preview Systems ZipLock electronic music distribution (EMD) system.</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/knowledgetrack_large.jpg" alt="">
+      <div class="carousel-caption">
+        <h3>KnowledgeTRACK</h3>
+        <h4>1998</h4>
+        <p><b>KnowledgeTRACK</b> is a computer based training product designed to run in a web browser or from CD-ROM. Courses were created by Mastering Computers on MCSE Certification topics. Additional courses were created for MacMillan New Riders Publishing and PLATINUM technology. My team developed a cutting-edge training engine in HTML/JavaScript, along with content creation tools in C++ and Visual Basic.</p>
+        <p>I recently refactored this code for modern browsers. See the live site here:<br>
+        <a href='http://demo.larrypdx.com/knowledgetrack' target='_blank'>http://demo.larrypdx.com/knowledgetrack</a></p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/skillbuilder_large.jpg" alt="">
+      <div class="carousel-caption">
+        <h3>Mastering Computers CBT</h3>
+        <h4>1997</h4>
+        <p><b>Mastering Computers</b> worked with NETg to create a library of over 300 CBT products for Information Technology professionals. My team created a CD-ROM based playback engine for these products using C++. In-house development tools were also created to quickly create custom training material including graphics and audio.</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/ergoknowledge_small.jpg" alt="">
+      <div class="carousel-caption">
+        <h3>ErgoKnowledge</h3>
+        <h4>1996</h4>
+        <p>The <b>ErgoKnowledge</b> CD-ROM training product teaches good ergonomic practices to anyone who sits at a computer all day. It was programmed in Macromedia Authorware and was one of several award-winning training products from Graphic Media. This CBT included video and interactive exercises.</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/kaiser_small.jpg" alt="">
+      <div class="carousel-caption">
+        <h3>EpicCare Training</h3>
+        <h4>1995</h4>
+        <p>In 1995 <b>Kaiser Permanente</b> was automating their entire patient medical record system and Doctor&rsquo;s office processes with a product called EpicCare. Graphic Media was chosen to create a computer based training product to help doctors and nurses learn this electronic system for the first time. The CBT was programmed in Macromedia Authorware and featured video taken at Kaiser offices. The product also used audio to convey all instructional material. In addition to multimedia elements, courses used simulations of the software being taught.</p>
+      </div>
+    </div>
+  </div><!-- end carousel-inner -->
+
+  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div><!-- end carousel -->
+
+</div><!-- end modal-body -->
+</div><!-- end modal-content -->
+</div><!-- end modal-dialog -->
+</div><!-- end modal -->
+
+<hr>
 
 <!-- Experience -->
-    <section id="experience">
-      <div class="row">
-        <div class="column">
-          <h1>Experience</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="medium-4 columns">
-          <h2>SeaChange International</h2>
-          <h3>Director of Engineering</h3>
-          <h4>Portland, Oregon</h4>
-          <h5>2012-2015</h5>
-        </div>
-        <div class="medium-8 columns">
-          <p>Site Manager for SeaChange International Oregon office. Responsibilities included:</p>
-          <ul>
-            <li>Managing day-to-day operations of Portland office: facilities, maintenance, IT services, budgets and expenses</li>
-            <li>Managing employees: hiring, reviewing, project staffing, mentoring and development</li>
-          </ul>
-          <p>Project Manager of multiple concurrent projects for major cable companies. Clients included Comcast, Cox, Charter, Verizon, Netgear, VTR Chile. Responsibilities included:</p>
-          <ul>
-            <li>Defining project plans and schedules</li>
-            <li>Developing relationships with clients and partners</li>
-            <li>Setting client expectations, accessing risks, and tracking progress</li>
-            <li>Tracking project hours and client billing</li>
-            <li>Creating proposals and statements of work</li>
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="columns medium-4">
-          <h2>Flashlight Engineering</h2>
-          <h3>Director of Engineering</h3>
-          <h4>Portland, Oregon</h4>
-          <h5>2007-2012</h5>
-        </div>
-        <div class="columns medium-8">
-          <p>Program Manager for set-top box middleware and application development projects using OCAP and EBIF on Motorola and Cisco legacy platforms as well as advanced set-top boxes. Staff reporting to me included 5 managers, 30 software and QA engineers, technical writers and IT staff. Major clients included Comcast, Cox, Rovi, CableLabs, and Canoe. Technologies included C/C++, Java, HTML, JavaScript, MPEG and other video technologies.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="columns medium-4">
-          <h2>Vidiom Systems</h2>
-          <h3>Engineering Manager</h3>
-          <h4>Portland, Oregon</h4>
-          <h5>2002-2007</h5>
-        </div>
-        <div class="columns medium-8">
-          <p>Manager and technical lead for Cable TV middleware development projects. Software development of Windows set-top box simulator and Java IDE tools for OCAP application developers. Technologies included C/C++, COM, DirectX, and Java.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="columns medium-4">
-          <h2>Supertracks</h2>
-          <h3>Lead Software Engineer</h3>
-          <h4>Portland, Oregon</h4>
-          <h5>1999-2001</h5>
-        </div>
-        <div class="columns medium-8">
-          <p>Technical Lead for e-commerce development, peer-to-peer and other digital media distribution, streaming, and caching technologies for audio and video. Technologies included C++, COM, ASP, HTML, XML and SQLServer.</p>
-          <p>Company was acquired by Centerspan Communications.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="columns medium-4">
-          <h2>Graphic Media</h2>
-          <h3>Software Engineer &amp; Manager</h3>
-          <h4>Portland, Oregon</h4>
-          <h5>1995-1999</h5>
-        </div>
-        <div class="columns medium-8">
-          <p>Manager of software engineering and web development teams creating computer-based training and web-based educational products using C++, ASP, HTML, Javascipt, and SQLServer. Windows programming using Visual Basic. Multimedia programming using Macromedia Director and Authorware.</p>
-          <p>Company changed ownership 5 times: Eagle River Interactive, Mastering Computers, PLATINUM technology, and Computer Associates.</p>
-        </div>
-      </div>
-    </section>
+<section id="experience">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Experience</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>SeaChange International</h2>
+      <h3>Director of Engineering</h3>
+      <h4>Portland, Oregon</h4>
+      <h5>2012-2015</h5>
+    </div>
+    <div class="col-sm-8">
+      <p>Site Manager for SeaChange International Oregon office. Responsibilities included:</p>
+      <ul>
+        <li>Managing day-to-day operations of Portland office: facilities, maintenance, IT services, budgets and expenses</li>
+        <li>Managing employees: hiring, reviewing, project staffing, mentoring and development</li>
+      </ul>
+      <p>Project Manager of multiple concurrent projects for major cable companies. Clients included Comcast, Cox, Charter, Verizon, Netgear, VTR Chile. Responsibilities included:</p>
+      <ul>
+        <li>Defining project plans and schedules</li>
+        <li>Developing relationships with clients and partners</li>
+        <li>Setting client expectations, accessing risks, and tracking progress</li>
+        <li>Tracking project hours and client billing</li>
+        <li>Creating proposals and statements of work</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>Flashlight Engineering</h2>
+      <h3>Director of Engineering</h3>
+      <h4>Portland, Oregon</h4>
+      <h5>2007-2012</h5>
+    </div>
+    <div class="col-sm-8">
+      <p>Program Manager for set-top box middleware and application development projects using OCAP and EBIF on Motorola and Cisco legacy platforms as well as advanced set-top boxes. Staff reporting to me included 5 managers, 30 software and QA engineers, technical writers and IT staff. Major clients included Comcast, Cox, Rovi, CableLabs, and Canoe. Technologies included C/C++, Java, HTML, JavaScript, MPEG and other video technologies.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>Vidiom Systems</h2>
+      <h3>Engineering Manager</h3>
+      <h4>Portland, Oregon</h4>
+      <h5>2002-2007</h5>
+    </div>
+    <div class="col-sm-8">
+      <p>Manager and technical lead for Cable TV middleware development projects. Software development of Windows set-top box simulator and Java IDE tools for OCAP application developers. Technologies included C/C++, COM, DirectX, and Java.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>Supertracks</h2>
+      <h3>Lead Software Engineer</h3>
+      <h4>Portland, Oregon</h4>
+      <h5>1999-2001</h5>
+    </div>
+    <div class="col-sm-8">
+      <p>Technical Lead for e-commerce development, peer-to-peer and other digital media distribution, streaming, and caching technologies for audio and video. Technologies included C++, COM, ASP, HTML, XML and SQLServer.</p>
+      <p>Company was acquired by Centerspan Communications.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>Graphic Media</h2>
+      <h3>Software Engineer &amp; Manager</h3>
+      <h4>Portland, Oregon</h4>
+      <h5>1995-1999</h5>
+    </div>
+    <div class="col-sm-8">
+      <p>Manager of software engineering and web development teams creating computer-based training and web-based educational products using C++, ASP, HTML, Javascipt, and SQLServer. Windows programming using Visual Basic. Multimedia programming using Macromedia Director and Authorware.</p>
+      <p>Company changed ownership 5 times: Eagle River Interactive, Mastering Computers, PLATINUM technology, and Computer Associates.</p>
+    </div>
+  </div>
+</section>
+
+<hr>
 
 <!-- Links -->
-    <section id="links">
-      <div class="row">
-        <div class="medium-4 columns">
-          <h1>Links</h1>
-        </div>
-        <div class="medium-8 columns">
-          <p>Here are some links to my work:</p>
-          <ul>
-              <li><a href="http://benneubauer.com/" target="_blank">Ben Neubauer Jewelry Artist</a></li>
-              <li><a href="http://demo.larrypdx.com/knowledgetrack" target="_blank">KnowledgeTRACK</a></li>
-              <li><a href="https://github.com/eldub10" target="_blank">GitHub</a></li>
-          </ul>
-          <p>Here are some links to me playing my cello:</p>
-          <ul>
-              <li><a href="https://www.youtube.com/playlist?list=PLDiQbpttl8NHO-Xhcw4hiRoNeP7TckKXL" target="_blank">YouTube</a></li>
-              <li><a href="https://soundcloud.com/eldub1" target="_blank">SoundCloud</a></li>
-          </ul>
-          <p>Throwback Thursday :)</p>
-          <ul>
-              <li><a href="1994/index.html">My website from 1994</a></li>
-              <li><a href="2001/index.html">And from 2001</a></li>
-          </ul>
-        </div>
-      </div>
-    </section>
+<section id="links">
+  <div class="row">
+    <div class="col-md-4">
+      <h1>Links</h1>
+    </div>
+    <div class="col-md-8">
+      <p>Here are some links to my work:</p>
+      <ul>
+          <li><a href="http://benneubauer.com/" target="_blank">Ben Neubauer Jewelry Artist</a></li>
+          <li><a href="http://demo.larrypdx.com/knowledgetrack" target="_blank">KnowledgeTRACK</a></li>
+          <li><a href="https://github.com/eldub10" target="_blank">GitHub</a></li>
+      </ul>
+      <p>Here are some links to me playing my cello:</p>
+      <ul>
+          <li><a href="https://www.youtube.com/playlist?list=PLDiQbpttl8NHO-Xhcw4hiRoNeP7TckKXL" target="_blank">YouTube</a></li>
+          <li><a href="https://soundcloud.com/eldub1" target="_blank">SoundCloud</a></li>
+      </ul>
+      <p>Throwback Thursday :)</p>
+      <ul>
+          <li><a href="1994/index.html">My website from 1994</a></li>
+          <li><a href="2001/index.html">And from 2001</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<hr>
 
 <!-- Contact -->
-    <section id="contact">
-      <div class="row">
-        <div class="medium-4 columns">
-          <h1>Contact</h1>
-        </div>
-        <div class="medium-8 columns">
-          <p>Email:</p>
-          <a href="mailto:web@larrypdx.com">web@larrypdx.com</a>
-          <p>LinkedIn:</p>
-          <a href="https://www.linkedin.com/in/larrypdx" target="_blank">https://www.linkedin.com/in/larrypdx</a>
-          <p>Download Resume:</p>
-          <a href="https://www.dropbox.com/s/9lshfcqqzv0i2yn/Larry_Wright_Resume.pdf?dl=0" target="_blank">Larry_Wright_Resume.pdf</a>
-        </div>
-      </div>
-    </section>
+<section id="contact">
+  <div class="row">
+    <div class="col-md-4">
+      <h1>Contact</h1>
+    </div>
+    <div class="col-md-8">
+      Email:
+      <p><a href="mailto:website@larrypdx.com">website@larrypdx.com</a></p>
+      LinkedIn:
+      <p><a href="https://www.linkedin.com/in/larrypdx" target="_blank">https://www.linkedin.com/in/larrypdx</a> </p>
+      Download Resume:
+      <p><a href="https://www.dropbox.com/s/9lshfcqqzv0i2yn/Larry_Wright_Resume.pdf?dl=0" target="_blank">Larry_Wright_Resume.pdf</a></p>
+    </div>
+  </div>
+</section>
+
+<hr>
 
 <!-- Footer -->
-    <footer id="footer">
-      <div class="row">
-        <div class="medium-8 columns medium-offset-4">
-          <p>Copyright &copy; 2015 Larry Wright</p>
-        </div>
-      </div>
-    </footer>
+<footer id="footer">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-4">
+      <p><small>Copyright &copy; 2015 Larry Wright</small></p>
+    </div>
+  </div>
+</footer>
 
-<!-- JavaScript -->
-	<script src="js/vendor/modernizr.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="js/vendor/smooth-scroll.min.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-      smoothScroll.init();
-      $(".clearing-caption").click(function(event) {
-        if(event.target.tagName == "A") {
-          window.open(event.target.href);
-        }
-      });
-    </script>
-  </body>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="js/vendor/smooth-scroll.min.js"></script>
+<script src="js/app.js"></script>
+</body>
 </html>
