@@ -8,4 +8,6 @@ or
 
 http://larrypdx.com
 
-I developed this site using Foundation 5.5.1 and Sass 3.4.9.
+`Master` branch developed with Bootstrap 3.3.5.
+
+`Foundation` branch developed with Foundation 5.5.1 and Sass 3.4.9.
